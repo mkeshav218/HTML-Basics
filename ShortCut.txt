@@ -1,0 +1,2 @@
+1) For basic html template :-  !+Enter
+2) to comment a line :- ctrl + /
