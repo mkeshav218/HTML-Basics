@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry File</title>
+</head>
+
+<body>
+    <!-- Heading -->
+    <h1>Hello Everyone</h1>
+    <h2>This is index.html file</h2>
+
+    <!-- To provide links -->
+
+    <!-- absolute link -->
+    <!-- open in same tab -->
+    <a href="http://127.0.0.1:5500/file1.html">Go To file1 (Open in same tab)</a></br>
+
+    <!-- open in another tab -->
+    <a href="http://127.0.0.1:5500/file1.html" target="_main">Go To file1 (Open in new Tab)</a>
+
+    </br>
+
+    <!-- relative link  -->
+    <a href="/about.html">Go To About Page</a>
+
+    <hr>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus cupiditate suscipit dolore officiis numquam
+        nostrum porro debitis, repudiandae culpa explicabo est voluptate vero molestiae repellat? Recusandae numquam
+        ratione laborum.</p>
+
+    <!-- image -->
+    <img src="/pictures/IMG_20171020_111124.jpg" alt="Image loading failed" height="150">
+    <img src="/pictures/IMG_20171020_111957.jpg" alt="Image loading failed" height="150">
+    <img src="/pictures/IMG_20171020_113227.jpg" alt="Image loading failed" height="150">
+    <img src="/pictures/IMG_20171020_113247.jpg" alt="Image loading failed" height="150">
+
+    <hr>
+    <b>This is Bold</b></br>
+    <i>This is Italic</i></br>
+    <u>This is underline</u></br>
+    <big>This is big</big></br>
+    <small>This is small</small>
+    <hr>
+
+    <!-- SubScript and SuperScript -->
+    <p>CO<sub>2</sub></p>
+    <p>ax<sup>2</sup> + bx + c = 0</p>
+
+    <pre>               To Brendan and Ellen,
+            and Barbara, Anne and Harold, and Walter and Rebecca
+            Peter Baer Galvin</pre>
+
+    <hr>
+
+    <header>
+        This is header
+    </header>
+
+    <main>
+        <section>This is a section</section>
+        <aside>This is aside</aside>
+        <article>This is article</article>
+    </main>
+
+    <footer>
+        This is footer
+    </footer>
+
+    <!-- div is a block level element, takes full width -->
+    <div>
+        This is div
+    </div>
+
+    <!-- span is an inline element, takes as much width as necessary -->
+    <span>
+        This is span
+    </span>
+
+    <hr>
+
+    <!-- unordered list -->
+    <ul type="square">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
+
+    <!-- ordered list -->
+    <ol>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ol>
+
+    <!-- table -->
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Keshav</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mishra</td>
+                    <td>23</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Form -->
+    <div>
+        <h1>Travel Form</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name"></br>
+
+            <label for="sectionIda">
+                <input type="radio" name="section" value="section a" id="sectionIda">Section A</br>
+            </label>
+            <label for="sectionIdb">
+                <input type="radio" name="section" value="section b" id="sectionIdb">Section B</br>
+            </label>
+            <label for="sectionIdc">
+                <input type="radio" name="section" value="section c" id="sectionIdc">Section C</br>
+            </label>
+
+            <input type="checkbox" name="Want food canteen card" id="canteenCard" class="red">Canteen Card</br>
+            
+            <input type="date" name="" id="">choose date</br>
+
+            <input type="datetime-local" name="" id="">choose timestamp</br>
+
+            <textarea name="explain" id="explain" cols="30" rows="5" placeholder="explain why you want to join"></textarea></form>
+
+            <!-- Select is like dropdown -->
+            <select name="car" id="car">
+                <option value="no car">Select Your Car</option>
+                <option value="Ferrari">Ferrari</option>
+                <option value="Omni">Omni</option>
+                <option value="Mercedes">Mercedes</option>
+            </select>
+        </form>
+    </div>
+
+    <!-- video -->
+    <div>
+        <!-- <iframe src="/Videos/video1.mp4" frameborder="0"></iframe> -->
+    </div>
+    <div>
+        <video src="/Videos/video1.mp4" controls></video>
+    </div>
+
+</body>
+
+</html>
